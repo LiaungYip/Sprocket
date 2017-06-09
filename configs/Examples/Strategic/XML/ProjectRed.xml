@@ -13,7 +13,7 @@
 
 
 <!-- Is the "Project Red" mod on the system?  Let's find out! -->
-<IfModInstalled name="ProjRed|Exploration">
+<IfModInstalled name="projectred-exploration">
 
   <!-- Starting Configuration for Custom Ore Generation. -->
   <ConfigSection>
@@ -45,7 +45,7 @@
         <OptionChoice name='predCopperDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Copper is generated </Description>
           <DisplayName>Project Red Copper</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -54,7 +54,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -63,7 +63,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -91,7 +91,7 @@
         <OptionChoice name='predMountainCopperDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Mountain Copper is generated </Description>
           <DisplayName>Project Red Mountain Copper</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -100,7 +100,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -109,7 +109,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:3")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -137,7 +137,7 @@
         <OptionChoice name='predTinDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Tin is generated </Description>
           <DisplayName>Project Red Tin</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -146,7 +146,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -155,7 +155,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -183,7 +183,7 @@
         <OptionChoice name='predMountainTinDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Mountain Tin is generated </Description>
           <DisplayName>Project Red Mountain Tin</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -192,7 +192,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -201,7 +201,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:4")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -229,7 +229,7 @@
         <OptionChoice name='predSilverDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Silver is generated </Description>
           <DisplayName>Project Red Silver</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -238,7 +238,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -247,7 +247,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -275,7 +275,7 @@
         <OptionChoice name='predMountainSilverDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Mountain Silver is generated </Description>
           <DisplayName>Project Red Mountain Silver</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -284,7 +284,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -293,7 +293,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:5")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -321,7 +321,7 @@
         <OptionChoice name='predMarbleDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Marble is generated </Description>
           <DisplayName>Project Red Marble</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StratumClouds' displayValue='Strata'>
             <Description>
@@ -330,7 +330,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -339,7 +339,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -367,7 +367,7 @@
         <OptionChoice name='predMountainMarbleDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Mountain Marble is generated </Description>
           <DisplayName>Project Red Mountain Marble</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StratumClouds' displayValue='Strata'>
             <Description>
@@ -376,7 +376,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -385,7 +385,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.stone")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -413,7 +413,7 @@
         <OptionChoice name='predRubyDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Ruby is generated </Description>
           <DisplayName>Project Red Ruby</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -422,7 +422,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -431,7 +431,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -459,7 +459,7 @@
         <OptionChoice name='predSapphireDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Sapphire is generated </Description>
           <DisplayName>Project Red Sapphire</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -468,7 +468,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -477,7 +477,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:1")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -505,7 +505,7 @@
         <OptionChoice name='predPeridotDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Peridot is generated </Description>
           <DisplayName>Project Red Peridot</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -514,7 +514,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -523,7 +523,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:2")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -551,7 +551,7 @@
         <OptionChoice name='predElectrotineDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Electrotine is generated </Description>
           <DisplayName>Project Red Electrotine</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -560,7 +560,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -569,7 +569,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -597,7 +597,7 @@
         <OptionChoice name='predMountainElectrotineDist'  displayState=':= if(?enableProjectRed, "shown", "hidden")' displayGroup='groupProjectRed'>
           <Description> Controls how Mountain Electrotine is generated </Description>
           <DisplayName>Project Red Mountain Electrotine</DisplayName>
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='HugeVeins' displayValue='Huge Veins'>
             <Description>
@@ -606,7 +606,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
             <Description>
@@ -615,7 +615,7 @@
           </Choice>
           </IfCondition>
 
-          <IfCondition condition=':= (?blockExists("ProjRed|Exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
+          <IfCondition condition=':= (?blockExists("projectred-exploration:projectred.exploration.ore:6")) &amp; (?blockExists("minecraft:lava")) '>
 
           <Choice value='Vanilla' displayValue='Vanilla'>
             <Description>
@@ -661,14 +661,14 @@
                 The global option  deferredPopulationRange must be
                 large enough to catch all ore  clusters (>= 32).
               </Comment>
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:1' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:2' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
-              <Replaces block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:1' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:2' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
+              <Replaces block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
             </Substitute>
           </IfCondition>
         </IfCondition>
@@ -699,7 +699,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 3.023 * _default_ * predCopperFreq ' range=':= 3.023 * _default_ * predCopperFreq ' type='normal' scaleTo='base' />
@@ -739,7 +739,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 1.271 * _default_ * predCopperSize ' range=':= 1.271 * _default_ * predCopperSize ' type='normal' />
@@ -767,7 +767,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -786,7 +786,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 5.333 * predCopperSize ' range=':= 2.67 * predCopperSize ' type='normal' />
@@ -823,7 +823,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='MotherlodeFrequency' avg=':= 3.023 * _default_ * predMountainCopperFreq ' range=':= 3.023 * _default_ * predMountainCopperFreq ' type='normal' scaleTo='base' />
@@ -863,7 +863,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='CloudRadius' avg=':= 1.271 * _default_ * predMountainCopperSize ' range=':= 1.271 * _default_ * predMountainCopperSize ' type='normal' />
@@ -891,7 +891,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -910,7 +910,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:3' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:3' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='Size' avg=':= 5.333 * predMountainCopperSize ' range=':= 2.67 * predMountainCopperSize ' type='normal' />
@@ -947,7 +947,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 2.390 * _default_ * predTinFreq ' range=':= 2.390 * _default_ * predTinFreq ' type='normal' scaleTo='base' />
@@ -987,7 +987,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 1.130 * _default_ * predTinSize ' range=':= 1.130 * _default_ * predTinSize ' type='normal' />
@@ -1015,7 +1015,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1034,7 +1034,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 5.333 * predTinSize ' range=':= 2.67 * predTinSize ' type='normal' />
@@ -1071,7 +1071,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='MotherlodeFrequency' avg=':= 2.390 * _default_ * predMountainTinFreq ' range=':= 2.390 * _default_ * predMountainTinFreq ' type='normal' scaleTo='base' />
@@ -1111,7 +1111,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='CloudRadius' avg=':= 1.130 * _default_ * predMountainTinSize ' range=':= 1.130 * _default_ * predMountainTinSize ' type='normal' />
@@ -1139,7 +1139,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1158,7 +1158,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:4' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:4' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='Size' avg=':= 5.333 * predMountainTinSize ' range=':= 2.67 * predMountainTinSize ' type='normal' />
@@ -1195,7 +1195,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 0.756 * _default_ * predSilverFreq ' range=':= 0.756 * _default_ * predSilverFreq ' type='normal' scaleTo='base' />
@@ -1235,7 +1235,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.636 * _default_ * predSilverSize ' range=':= 0.636 * _default_ * predSilverSize ' type='normal' />
@@ -1263,7 +1263,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1282,7 +1282,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 2.667 * predSilverSize ' range=':= 1.33 * predSilverSize ' type='normal' />
@@ -1319,7 +1319,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='MotherlodeFrequency' avg=':= 0.756 * _default_ * predMountainSilverFreq ' range=':= 0.756 * _default_ * predMountainSilverFreq ' type='normal' scaleTo='base' />
@@ -1359,7 +1359,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='CloudRadius' avg=':= 0.636 * _default_ * predMountainSilverSize ' range=':= 0.636 * _default_ * predMountainSilverSize ' type='normal' />
@@ -1387,7 +1387,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1406,7 +1406,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:5' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:5' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='Size' avg=':= 2.667 * predMountainSilverSize ' range=':= 1.33 * predMountainSilverSize ' type='normal' />
@@ -1432,7 +1432,7 @@
                 distribution is meant to provide  realistic
                 distribution of stone  in a strata formation.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.687 * _default_ * predMarbleSize ' range=':= 0.687 * _default_ * predMarbleSize ' type='normal' />
@@ -1471,7 +1471,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 1.512 * _default_ * predMarbleFreq ' range=':= 1.512 * _default_ * predMarbleFreq ' type='normal' scaleTo='base' />
@@ -1503,7 +1503,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 10.667 * predMarbleSize ' range=':= 5.33 * predMarbleSize ' type='normal' />
@@ -1529,7 +1529,7 @@
                 distribution is meant to provide  realistic
                 distribution of stone  in a strata formation.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='CloudRadius' avg=':= 0.687 * _default_ * predMountainMarbleSize ' range=':= 0.687 * _default_ * predMountainMarbleSize ' type='normal' />
@@ -1568,7 +1568,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='MotherlodeFrequency' avg=':= 1.512 * _default_ * predMountainMarbleFreq ' range=':= 1.512 * _default_ * predMountainMarbleFreq ' type='normal' scaleTo='base' />
@@ -1600,7 +1600,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.stone' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.stone' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='Size' avg=':= 10.667 * predMountainMarbleSize ' range=':= 5.33 * predMountainMarbleSize ' type='normal' />
@@ -1637,7 +1637,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 0.378 * _default_ * predRubyFreq ' range=':= 0.378 * _default_ * predRubyFreq ' type='normal' scaleTo='base' />
@@ -1677,7 +1677,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.449 * _default_ * predRubySize ' range=':= 0.449 * _default_ * predRubySize ' type='normal' />
@@ -1705,7 +1705,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1724,7 +1724,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 0.667 * predRubySize ' range=':= 0.33 * predRubySize ' type='normal' />
@@ -1761,7 +1761,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:1' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:1' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 0.378 * _default_ * predSapphireFreq ' range=':= 0.378 * _default_ * predSapphireFreq ' type='normal' scaleTo='base' />
@@ -1801,7 +1801,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:1' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:1' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.449 * _default_ * predSapphireSize ' range=':= 0.449 * _default_ * predSapphireSize ' type='normal' />
@@ -1829,7 +1829,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:1' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:1' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1848,7 +1848,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:1' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:1' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 0.667 * predSapphireSize ' range=':= 0.33 * predSapphireSize ' type='normal' />
@@ -1885,7 +1885,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:2' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:2' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 0.378 * _default_ * predPeridotFreq ' range=':= 0.378 * _default_ * predPeridotFreq ' type='normal' scaleTo='base' />
@@ -1925,7 +1925,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:2' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:2' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.449 * _default_ * predPeridotSize ' range=':= 0.449 * _default_ * predPeridotSize ' type='normal' />
@@ -1953,7 +1953,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:2' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:2' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -1972,7 +1972,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:2' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:2' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 0.667 * predPeridotSize ' range=':= 0.33 * predPeridotSize ' type='normal' />
@@ -2009,7 +2009,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='MotherlodeFrequency' avg=':= 1.512 * _default_ * predElectrotineFreq ' range=':= 1.512 * _default_ * predElectrotineFreq ' type='normal' scaleTo='base' />
@@ -2049,7 +2049,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='CloudRadius' avg=':= 0.899 * _default_ * predElectrotineSize ' range=':= 0.899 * _default_ * predElectrotineSize ' type='normal' />
@@ -2077,7 +2077,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -2096,7 +2096,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <Biome name='.*'  />
               <Setting name='Size' avg=':= 5.333 * predElectrotineSize ' range=':= 2.67 * predElectrotineSize ' type='normal' />
@@ -2133,7 +2133,7 @@
                 add  challenge to multiplayer worlds.  Credit: based
                 on feedback by  dyrewulf from the MC forums.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='MotherlodeFrequency' avg=':= 1.512 * _default_ * predMountainElectrotineFreq ' range=':= 1.512 * _default_ * predMountainElectrotineFreq ' type='normal' scaleTo='base' />
@@ -2174,7 +2174,7 @@
                 permanent mining base and  spend some time actually
                 mining  the ore.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='CloudRadius' avg=':= 0.899 * _default_ * predMountainElectrotineSize ' range=':= 0.899 * _default_ * predMountainElectrotineSize ' type='normal' />
@@ -2202,7 +2202,7 @@
                   the frequency of  the parent distribution will
                   already be scaled by that.
                 </Description>
-                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+                <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
                 <Replaces block='minecraft:dirt' weight='1.0' />
                 <Replaces block='minecraft:sandstone' weight='1.0' />
                 <ReplacesOre block='stone' weight='1.0' />
@@ -2222,7 +2222,7 @@
               <Description>
                 A master preset for standardgen  ore distributions.
               </Description>
-              <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0' />
+              <OreBlock block='projectred-exploration:projectred.exploration.ore:6' weight='1.0' />
               <ReplacesOre block='stone' weight='1.0' />
               <BiomeType name='Mountain'  />
               <Setting name='Size' avg=':= 5.333 * predMountainElectrotineSize ' range=':= 2.67 * predMountainElectrotineSize ' type='normal' />
